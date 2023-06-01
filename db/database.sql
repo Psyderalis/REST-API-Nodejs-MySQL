@@ -16,3 +16,5 @@ INSERT INTO employee VALUES
   (2, 'Ana', 2000),
   (3, 'Sam', 2500),
   (4, 'Pola', 1500);
+
+SELECT * FROM employee WHERE id = 1;
