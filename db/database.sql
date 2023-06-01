@@ -22,3 +22,5 @@ SELECT * FROM employee
 SELECT * FROM employee WHERE id = 1;
 
 DELETE FROM employee WHERE id = 2;
+
+UPDATE employee SET name = ?, salary = ? WHERE id = ?;

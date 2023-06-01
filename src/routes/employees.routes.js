@@ -11,6 +11,6 @@ router.post('/employees', createEmployee)
 
 router.delete('/employees/:id', deleteEmployee)
 
-router.put('/employees', updateEmployee)
+router.patch('/employees/:id', updateEmployee)
 
 export default router
